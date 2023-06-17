@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "date-and-time": "^3.0.0",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "joi": "^17.9.2",
+    "ldapjs": "^3.0.2",
+    "mathjs": "^11.8.0",
+    "mqtt": "^4.3.7",
+    "mssql": "^9.1.1",
+    "mysql2": "^3.3.2",
+    "request": "^2.88.2",
+    "request-ip": "^3.3.0",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0",
+    "sha1": "^1.1.1",
+    "tedious": "^16.1.0",
+    "winston": "^3.9.0"
+  },
+  "name": "increncyv4_sundproduction_tsh_mssql",
+  "description": "",
+  "version": "1.0.0",
+  "main": "interface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/software-tantrasoft/IncrencyV4_SunDProduction_TSH_MSSQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/software-tantrasoft/IncrencyV4_SunDProduction_TSH_MSSQL/issues"
+  },
+  "homepage": "https://github.com/software-tantrasoft/IncrencyV4_SunDProduction_TSH_MSSQL#readme"
+}

@@ -1,0 +1,40 @@
+const Sequelize = require('sequelize');
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('tbl_rights_removed', {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    userid: {
+      type: DataTypes.STRING(50),
+      allowNull: false,
+      defaultValue: "NULL"
+    },
+    removed_right: {
+      type: DataTypes.STRING(50),
+      allowNull: false,
+      defaultValue: "NULL"
+    },
+    role_name: {
+      type: DataTypes.STRING(200),
+      allowNull: true,
+      defaultValue: "NULL"
+    }
+  }, {
+    sequelize,
+    tableName: 'tbl_rights_removed',
+    timestamps: false,
+    indexes: [
+      {
+        name: "PRIMARY",
+        unique: true,
+        using: "BTREE",
+        fields: [
+          { name: "id" },
+        ]
+      },
+    ]
+  });
+};

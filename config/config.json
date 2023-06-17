@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "1234",
+    "database": "increncyv4_sunproduction_dadra_tsh",
+    "host": "TS1062",
+    "dialect": "mssql",
+    "timezone":"+05:30",
+    "pool": {
+      "max": 20,
+      "min": 0,
+      "acquire": 60000,
+      "idle": 10000
+    },
+    "dialectOptions": {
+      "options":{
+        "useUTC": false
+      },
+      "multipleStatements" : true,
+      "connectTimeout" : 60000,
+      "requestTimeout" : 60000
+    
+    },
+    "query": {
+      "raw": true
+    }
+  }
+}

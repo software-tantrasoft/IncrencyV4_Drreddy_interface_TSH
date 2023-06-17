@@ -1,0 +1,17 @@
+// const mysql = require('mysql2');
+// const dbConfig = require('../global/serverConfig');
+// const conPool = mysql.createPool({
+//     host: dbConfig.dbHost,
+//     database: dbConfig.dbDatabase, 
+//     user: dbConfig.dbUserId,
+//     password: dbConfig.dbPwd,
+
+//     // timezone: 'IST'
+// })
+// conPool.on('connection', function (connection) {
+//     console.log('Connected to MySql db');
+// });
+// conPool.on('error', ()=>{
+//    // console.log('Not Connected to MySql db');
+// })
+// module.exports = conPool.promise();
